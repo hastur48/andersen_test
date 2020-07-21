@@ -12,7 +12,7 @@ def choice_of_algorithm():
         Нажмите "Ctrl+C" для выхода.''')
     while True:
         try:
-            algorithm = int(algorithm)
+            algorithm = int(input())
             if algorithm not in range(1, 4):
                 print('Нет алгоритма под этим номером, '
                       'введите число от 1 до 3 или "q" для выхода.')
