@@ -9,13 +9,9 @@ def choice_of_algorithm():
         2. Проверка имени
         3. Проверка массива.
         
-        Введите "q" для выхода.''')
+        Нажмите "Ctrl+C" для выхода.''')
     while True:
         try:
-            algorithm = input()
-            if algorithm == 'q':
-                print('Выход из программы.')
-                break
             algorithm = int(algorithm)
             if algorithm not in range(1, 4):
                 print('Нет алгоритма под этим номером, '
